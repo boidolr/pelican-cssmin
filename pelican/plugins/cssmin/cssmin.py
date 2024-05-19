@@ -17,7 +17,7 @@ def _identity(script):
 def add_jinja2_ext(pelican):
     """Add Webassets to Jinja2 extensions in Pelican settings."""
     minifier = rcssmin.cssmin if rcssmin else _identity
-    pelican.settings["JINJA_FILTERS"]["cssmin"] = minifier
+    pelican.env.filters.update({"cssmin": minifier})
 
 
 def register():
@@ -26,4 +26,4 @@ def register():
         logger = logging.getLogger(__name__)
         logger.warning("failed to load 'rcssmin' dependencies")
 
-    signals.initialized.connect(add_jinja2_ext)
+    signals.generator_init.connect(add_jinja2_ext)
