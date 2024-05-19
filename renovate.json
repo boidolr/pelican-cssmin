@@ -1,0 +1,8 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+        "github>boidolr/actions",
+        "github>boidolr/actions//presets/actions",
+        "github>boidolr/actions//presets/precommit"
+    ]
+}
