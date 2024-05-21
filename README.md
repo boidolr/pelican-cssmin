@@ -2,7 +2,7 @@
 
 [![tag](https://img.shields.io/github/v/tag/boidolr/pelican-cssmin?sort=semver)](https://github.com/boidolr/pelican-cssmin/tags)
 ![python](https://img.shields.io/python/required-version-toml?tomlFilePath=https%3A%2F%2Fraw.githubusercontent.com%2Fboidolr%2Fpelican-cssmin%2Fmain%2Fpyproject.toml)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/pelican-plugins/pelican-cssmin/main.yml?branch=main)](https://github.com/boidolr/pelican-cssmin/actions)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/boidolr/pelican-cssmin/main.yml?branch=main)](https://github.com/boidolr/pelican-cssmin/actions)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
 
 Pelican plugin adding [rcssmin](https://github.com/ndparker/rcssmin) as a template filter to handle inline styles.
