@@ -10,8 +10,8 @@ except ImportError:
     rcssmin = None
 
 
-def _identity(script):
-    return script
+def _identity(value):
+    return value
 
 
 def add_jinja2_ext(pelican):
