@@ -15,7 +15,7 @@ def _identity(value):
 
 
 def add_jinja2_ext(pelican):
-    """Add Webassets to Jinja2 extensions in Pelican settings."""
+    """Add rcssmin filter to Jinja2 extensions in Pelican settings."""
     minifier = rcssmin.cssmin if rcssmin else _identity
     pelican.env.filters.update({"cssmin": minifier})
 
