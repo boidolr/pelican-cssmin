@@ -1,2 +1,4 @@
 .pdm-python
 pdm.lock
+.pytest_cache
+.ruff_cache
